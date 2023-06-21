@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "type": "cargo",
+        "driverName": "Driver 1",
+        "phoneNumber": "78005553531",
+        "lattitude": 60.049995,
+        "longitude": 30.422801
+    },
+    {
+        "id": 2,
+        "type": "cargo",
+        "driverName": "Driver 2",
+        "phoneNumber": "78005553532",
+        "lattitude": 60.053183,
+        "longitude": 30.402134
+    },
+    {
+        "id": 3,
+        "type": "cargo",
+        "driverName": "Driver 3",
+        "phoneNumber": "78005553533",
+        "lattitude": 60.062806,
+        "longitude": 30.400488
+    },
+    {
+        "id": 4,
+        "type": "cargo",
+        "driverName": "Driver 4",
+        "phoneNumber": "78005553534",
+        "lattitude": 61.062806,
+        "longitude": 31.400488
+    },
+    {
+        "id": 5,
+        "type": "passenger",
+        "driverName": "Driver 5",
+        "phoneNumber": "78005553535",
+        "lattitude": 60.049302,
+        "longitude": 30.425161
+    },
+    {
+        "id": 6,
+        "type": "passenger",
+        "driverName": "Driver 6",
+        "phoneNumber": "78005553536",
+        "lattitude": 60.051287,
+        "longitude": 30.440736
+    },
+    {
+        "id": 7,
+        "type": "passenger",
+        "driverName": "Driver 7",
+        "phoneNumber": "78005553537",
+        "lattitude": 60.064047,
+        "longitude": 30.434137
+    },
+    {
+        "id": 8,
+        "type": "special",
+        "driverName": "Driver 8",
+        "phoneNumber": "78005553538",
+        "lattitude": 60.053175,
+        "longitude": 30.429416
+    },
+    {
+        "id": 9,
+        "type": "special",
+        "driverName": "Driver 9",
+        "phoneNumber": "78005553539",
+        "lattitude": 60.052546,
+        "longitude": 30.367207
+    },
+    {
+        "id": 10,
+        "type": "special",
+        "driverName": "Driver 10",
+        "phoneNumber": "78005553530",
+        "lattitude": 60.057534,
+        "longitude": 30.365035
+    }
+]
