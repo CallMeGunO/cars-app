@@ -9,9 +9,12 @@ import LocalizationContext from '../../core/contexts/LocalizationContext'
 export default function CarScreen() {
     const { localization } = useContext(LocalizationContext)
 
+    // get car from routing props
     const route = useRoute<CarScreenRouteProp>()
+
     const car = route.params.car
     const message = localization.strings.message
+    // check platform, to add or not + at the start of phone number
     const platformAdoptedPhoneNumber = Platform.OS == 'ios' ? car.phoneNumber : `+${car.phoneNumber}`
     return (
         <View style={styles.container}>
@@ -34,7 +37,7 @@ export default function CarScreen() {
                 title={localization.strings.write}
                 onPress={() => {
                     Linking.openURL(`whatsapp://send?text=${message}&phone=${platformAdoptedPhoneNumber}`).catch(() => {
-                        alert('Не удалось найти WhatsApp на устройстве')
+                        alert(localization.strings.whatsappAlert)
                     })
                 }}
             />

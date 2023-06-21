@@ -13,6 +13,7 @@ export default function CarList({ cars }: CarListProps) {
     const navigation = useNavigation<ScreenNavigationProp>()
 
     const carPressHandler = (car: Car) => {
+        // pass car that should be displayed to car screen
         navigation.navigate('Car', { car: car })
     }
 

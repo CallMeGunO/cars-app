@@ -11,14 +11,17 @@ import { ScreenNavigationProp } from '../../types/navigation'
 import { useNavigation } from '@react-navigation/native'
 
 export default function ListScreen() {
+    // all cars get from json file
     const allCars = cars as Car[]
 
     const navigation = useNavigation<ScreenNavigationProp>()
 
     const { localization } = useContext(LocalizationContext)
-
+    // cars that should be displayed
     const [currentCars, setCurrentCars] = useState<Car[]>(allCars)
+    // display mode list or car
     const [isMapDisplayed, setIsMapDisplayed] = useState<boolean>(false)
+    // car type that should be displayed
     const [dropdownValue, setDropdownValue] = useState<string>(CarType.CARGO)
     const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false)
 

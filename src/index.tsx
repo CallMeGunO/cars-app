@@ -9,7 +9,9 @@ import Localization from './localization'
 import { useState } from 'react'
 
 export default function CarTracker() {
+    // Initial localization state
     const [localization, setLocalization] = useState(new Localization('ru'))
+    // Used Stack navigation
     const Stack = createNativeStackNavigator<StackNavigatorParamList>()
     return (
         <LocalizationContext.Provider value={{ localization: localization, setLocalization: setLocalization }}>

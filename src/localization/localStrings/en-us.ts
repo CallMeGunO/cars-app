@@ -14,5 +14,6 @@ export default {
     vehicle: 'Vehicle',
     settings: 'Settings',
 
-    message: 'Good afternoon, please tell me what order number you currently have in work'
+    message: 'Good afternoon, please tell me what order number you currently have in work',
+    whatsappAlert: 'Male sure you have WhatsApp installed'
 }
